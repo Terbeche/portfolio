@@ -26,7 +26,7 @@ const projectsDetails = [
     info: ['CANOPY', 'Back End Dev', '2015'],
     featured_image: './images/project-snapshots/project1.png',
     description:
-      "Math magicians is a website for all fans of mathematics",
+      'Math magicians is a website for all fans of mathematics',
     long_description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     technologies: ['html', 'css', 'react'],
@@ -38,9 +38,9 @@ const projectsDetails = [
     info: ['CANOPY', 'Back End Dev', '2015'],
     featured_image: './images/project-snapshots/project1.png',
     description:
-    "This is a simple To-Do-List website in which you can add and remove tasks using local storage.",
+    'This is a simple To-Do-List website in which you can add and remove tasks using local storage.',
     long_description:
-    "This is a simple To-Do-List website in which you can add and remove tasks using local storage.",
+    'This is a simple To-Do-List website in which you can add and remove tasks using local storage.',
     technologies: ['html', 'css', 'react'],
     link_to_Source: 'https://github.com/Terbeche/To--Do-List',
     link_to_live_version: 'https://terbeche.github.io/To--Do-List/',
@@ -50,9 +50,9 @@ const projectsDetails = [
     info: ['CANOPY', 'Back End Dev', '2015'],
     featured_image: './images/project-snapshots/project1.png',
     description:
-      "The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.",
+      'The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.',
     long_description:
-      "The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.",
+      'The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.',
     technologies: ['html', 'css', 'javascript'],
     link_to_Source: 'https://github.com/Terbeche/Leaderboard',
     link_to_live_version: 'https://terbeche.github.io/Leaderboard/',
@@ -62,7 +62,7 @@ const projectsDetails = [
     info: ['CANOPY', 'Back End Dev', '2015'],
     featured_image: './images/project-snapshots/project1.png',
     description:
-      "This is a website that displays a list of movies from an external API",
+      'This is a website that displays a list of movies from an external API',
     long_description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     technologies: ['html', 'css', 'javascript'],
@@ -74,7 +74,7 @@ const projectsDetails = [
     info: ['CANOPY', 'Back End Dev', '2015'],
     featured_image: './images/project-snapshots/project1.png',
     description:
-      "This is a E-learning-platform website for the FIRST CAPSTONE PROJECT of the microverse program representing an E-Learning platform.",
+      'This is a E-learning-platform website for the FIRST CAPSTONE PROJECT of the microverse program representing an E-Learning platform.',
     long_description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     technologies: ['html', 'css', 'javascript'],
@@ -98,7 +98,7 @@ const projectsDetails = [
     info: ['CANOPY', 'Back End Dev', '2015'],
     featured_image: './images/project-snapshots/project1.png',
     description:
-      "React-To-Do-App is a Single Page App (SPA) that allows users to add and delete To-Do tasks. It was created following this tutorial with some additional changes",
+      'React-To-Do-App is a Single Page App (SPA) that allows users to add and delete To-Do tasks. It was created following this tutorial with some additional changes',
     long_description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     technologies: ['html', 'css', 'react'],
@@ -106,7 +106,6 @@ const projectsDetails = [
     link_to_live_version: 'https://terbeche.github.io/react-todo-app/',
   },
 ];
-
 
 const firstItem = document.createElement('div');
 firstItem.id = 'item1';
@@ -309,12 +308,11 @@ function showProjectDetailsPopup(i) {
   popupButtons.id = 'popup-buttons';
 
   const popuplink1 = document.createElement('a');
-  popuplink1.href =  projectsDetails[i].link_to_live_version;
+  popuplink1.href = projectsDetails[i].link_to_live_version;
 
- 
   const popupButton1 = document.createElement('button');
   popupButton1.id = 'popupButton1';
-  popupButton1.textContent = 'See live'; 
+  popupButton1.textContent = 'See live';
   const popupButton1Icon = document.createElement('i');
   popupButton1Icon.classList.add('link-icon');
   popupButton1.appendChild(popupButton1Icon);
@@ -322,9 +320,8 @@ function showProjectDetailsPopup(i) {
   popuplink1.appendChild(popupButton1);
   popupButtons.appendChild(popuplink1);
 
-
   const popuplink2 = document.createElement('a');
-  popuplink2.href =  projectsDetails[i].link_to_Source;
+  popuplink2.href = projectsDetails[i].link_to_Source;
 
   const popupButton2 = document.createElement('button');
   popupButton2.id = 'popupButton2';
@@ -349,7 +346,6 @@ function showProjectDetailsPopup(i) {
 const projectButtonElements = document.getElementsByClassName('see-project-button');
 
 for (let i = 0; i < projectButtonElements.length; i += 1) {
-
   if (projectButtonElements[i].innerHTML === 'See Project') {
     projectButtonElements[i].addEventListener('click', () => {
       showProjectDetailsPopup(i);
