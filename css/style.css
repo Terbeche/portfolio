@@ -263,7 +263,7 @@ header nav ul {
 #work {
   margin: 0 1rem;
   display: grid;
-  grid-template: 1fr 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%/100%;
+  grid-template: 1fr 1fr 1fr 1fr 1fr 1fr/100%;
 }
 
 #recent-work {
@@ -395,6 +395,7 @@ ul li {
   flex-direction: column;
   margin: 10px;
   justify-content: flex-end;
+  margin-bottom: 5rem;
 }
 
 #item2,
