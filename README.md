@@ -1,10 +1,8 @@
 # Project-1-Setup-and-mobile-version-skeleton
 
->This is the project of day03/week01/module01
 
->We are building the first 2 sections of the mobile website using a predefined figma template .
-Here is what the page web looks like:
-![alt text](https://raw.githubusercontent.com/Terbeche/Project-1-Setup-and-mobile-version-skeleton/main/images/portfolio.PNG)
+>This is my personal portofio 
+
 
 ## Built With
 
@@ -14,7 +12,7 @@ Here is what the page web looks like:
 ## Live Demo (if available)
 
 
-[Live Demo Link](https://terbeche.github.io/Project-1-Setup-and-mobile-version-skeleton/)
+[Live Demo Link](https://terbeche.github.io/portfolio/)
 
 
 ## Authors
@@ -29,7 +27,7 @@ Here is what the page web looks like:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Terbeche/Project-1-Setup-and-mobile-version-skeleton/issues/5).
+Feel free to check the [issues page](https://github.com/Terbeche/portfolio/issues).
 
 ## Show your support
 
@@ -43,4 +41,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./license.md) licensed.
