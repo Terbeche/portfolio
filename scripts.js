@@ -24,7 +24,7 @@ const projectsDetails = [
   {
     title: 'Math-Magicians',
     info: ['CANOPY', 'Back End Dev', '2015'],
-    featured_image: './images/project-snapshots/project1.png',
+    featured_image: './images/project-snapshots/math_magician.png',
     description:
       'Math magicians is a website for all fans of mathematics',
     long_description:
@@ -34,21 +34,21 @@ const projectsDetails = [
     link_to_live_version: 'https://math-magicians-react-project.herokuapp.com/',
   },
   {
-    title: 'To Do list',
+    title: 'Budget App',
     info: ['CANOPY', 'Back End Dev', '2015'],
-    featured_image: './images/project-snapshots/project1.png',
+    featured_image: './images/project-snapshots/budget_app.png',
     description:
     'This is a simple To-Do-List website in which you can add and remove tasks using local storage.',
     long_description:
     'This is a simple To-Do-List website in which you can add and remove tasks using local storage.',
     technologies: ['html', 'css', 'react'],
-    link_to_Source: 'https://github.com/Terbeche/To--Do-List',
-    link_to_live_version: 'https://terbeche.github.io/To--Do-List/',
+    link_to_Source: 'https://github.com/Terbeche/Budget-app',
+    link_to_live_version: 'https://damp-ocean-00409.herokuapp.com/',
   },
   {
     title: 'Leaderboard',
     info: ['CANOPY', 'Back End Dev', '2015'],
-    featured_image: './images/project-snapshots/project1.png',
+    featured_image: './images/project-snapshots/leaderboard.png',
     description:
       'The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.',
     long_description:
@@ -60,7 +60,7 @@ const projectsDetails = [
   {
     title: 'TV Show',
     info: ['CANOPY', 'Back End Dev', '2015'],
-    featured_image: './images/project-snapshots/project1.png',
+    featured_image: './images/project-snapshots/tv_shows.png',
     description:
       'This is a website that displays a list of movies from an external API',
     long_description:
@@ -72,7 +72,7 @@ const projectsDetails = [
   {
     title: 'E Learning Platform',
     info: ['CANOPY', 'Back End Dev', '2015'],
-    featured_image: './images/project-snapshots/project1.png',
+    featured_image: './images/project-snapshots/e_learning.png',
     description:
       'This is a E-learning-platform website for the FIRST CAPSTONE PROJECT of the microverse program representing an E-Learning platform.',
     long_description:
@@ -82,16 +82,16 @@ const projectsDetails = [
     link_to_live_version: 'https://terbeche.github.io/E-learning-platform/',
   },
   {
-    title: 'Awesome books',
+    title: 'Countries Information',
     info: ['CANOPY', 'Back End Dev', '2015'],
-    featured_image: './images/project-snapshots/project1.png',
+    featured_image: './images/project-snapshots/countries_information.png',
     description:
       "Awesome Books is a web application that let's add and remove books using local storage.",
     long_description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     technologies: ['html', 'css', 'javascript'],
-    link_to_Source: 'https://github.com/Terbeche/Awesome-Books-ES6',
-    link_to_live_version: 'https://terbeche.github.io/Awesome-Books/',
+    link_to_Source: 'https://countries-information.herokuapp.com/',
+    link_to_live_version: 'https://github.com/Terbeche/countries-information',
   },
   {
     title: 'To Do APP',
@@ -221,6 +221,7 @@ function showProjectDetailsPopup(i) {
 
   const popuplink1 = document.createElement('a');
   popuplink1.href = projectsDetails[i].link_to_live_version;
+  popuplink1.target = '_blank';
 
   const popupButton1 = document.createElement('button');
   popupButton1.id = 'popupButton1';
@@ -234,6 +235,7 @@ function showProjectDetailsPopup(i) {
 
   const popuplink2 = document.createElement('a');
   popuplink2.href = projectsDetails[i].link_to_Source;
+  popuplink2.target = '_blank';
 
   const popupButton2 = document.createElement('button');
   popupButton2.id = 'popupButton2';

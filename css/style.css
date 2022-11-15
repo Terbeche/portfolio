@@ -404,7 +404,8 @@ ul li {
 #item5,
 #item6,
 #item7 {
-  background-image: url("../images/card-Placeholder.png");
+  /* background-image: url("../images/card-Placeholder.png"); */
+  background-color: #091e42;
   background-repeat: no-repeat;
   background-size: cover;
 }
