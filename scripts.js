@@ -23,7 +23,7 @@ for (let i = 0; i < menuLinks.length; i += 1) {
 const projectsDetails = [
   {
     title: 'Math-Magicians',
-    featured_image: './images/project-snapshots/math_magician.png',
+    featured_image: './images/project-snapshots/math_magician.PNG',
     description:
       'Math magicians is a website for all fans of mathematics',
     technologies: ['Html', 'CSS', 'JavaScript'],
@@ -32,7 +32,7 @@ const projectsDetails = [
   },
   {
     title: 'Budget App',
-    featured_image: './images/project-snapshots/budget_app.png',
+    featured_image: './images/project-snapshots/budget_app.PNG',
     description:
     'This is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
     technologies: ['Ruby on Rails', 'PostgreSQL', 'React'],
@@ -41,7 +41,7 @@ const projectsDetails = [
   },
   {
     title: 'Leaderboard',
-    featured_image: './images/project-snapshots/leaderboard.png',
+    featured_image: './images/project-snapshots/leaderboard.PNG',
     description:
       'The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.',
     technologies: ['Html', 'CSS', 'JavaScript'],
@@ -50,7 +50,7 @@ const projectsDetails = [
   },
   {
     title: 'TV Show',
-    featured_image: './images/project-snapshots/tv_shows.png',
+    featured_image: './images/project-snapshots/tv_shows.PNG',
     description:
       'This is a website that displays a list of movies from an external API',
     technologies: ['Html', 'CSS', 'JavaScript'],
@@ -59,7 +59,7 @@ const projectsDetails = [
   },
   {
     title: 'E Learning Platform',
-    featured_image: './images/project-snapshots/e_learning.png',
+    featured_image: './images/project-snapshots/e_learning.PNG',
     description:
       'This is a E-learning-platform website is a simple static website representing an E-Learning platform.',
     technologies: ['Html', 'CSS', 'JavaScript'],
@@ -68,7 +68,7 @@ const projectsDetails = [
   },
   {
     title: 'Countries Information',
-    featured_image: ('./images/project-snapshots/countries_information.png'),
+    featured_image: ('./images/project-snapshots/countries_information.PNG'),
     description:
       'In this project, I have worked with the real live data from the RESTCountries API. This web application provides some information about more than 250 countries worldwide like the area, population, capital, continent, and the official flag.',
     technologies: ['React', 'Redux', 'CSS'],
