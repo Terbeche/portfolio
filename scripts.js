@@ -23,106 +23,84 @@ for (let i = 0; i < menuLinks.length; i += 1) {
 const projectsDetails = [
   {
     title: 'Math-Magicians',
-    info: ['CANOPY', 'Back End Dev', '2015'],
     featured_image: './images/project-snapshots/math_magician.png',
     description:
       'Math magicians is a website for all fans of mathematics',
-    long_description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    technologies: ['html', 'css', 'react'],
+    technologies: ['Html', 'CSS', 'JavaScript'],
     link_to_Source: 'https://github.com/Terbeche/Math-Magicians',
     link_to_live_version: 'https://math-magicians-react-project.herokuapp.com/',
   },
   {
     title: 'Budget App',
-    info: ['CANOPY', 'Back End Dev', '2015'],
     featured_image: './images/project-snapshots/budget_app.png',
     description:
-    'This is a simple To-Do-List website in which you can add and remove tasks using local storage.',
-    long_description:
-    'This is a simple To-Do-List website in which you can add and remove tasks using local storage.',
-    technologies: ['html', 'css', 'react'],
+    'This is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
+    technologies: ['Ruby on Rails', 'PostgreSQL', 'React'],
     link_to_Source: 'https://github.com/Terbeche/Budget-app',
     link_to_live_version: 'https://damp-ocean-00409.herokuapp.com/',
   },
   {
     title: 'Leaderboard',
-    info: ['CANOPY', 'Back End Dev', '2015'],
     featured_image: './images/project-snapshots/leaderboard.png',
     description:
       'The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.',
-    long_description:
-      'The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.',
-    technologies: ['html', 'css', 'javascript'],
+    technologies: ['Html', 'CSS', 'JavaScript'],
     link_to_Source: 'https://github.com/Terbeche/Leaderboard',
     link_to_live_version: 'https://terbeche.github.io/Leaderboard/',
   },
   {
     title: 'TV Show',
-    info: ['CANOPY', 'Back End Dev', '2015'],
     featured_image: './images/project-snapshots/tv_shows.png',
     description:
       'This is a website that displays a list of movies from an external API',
-    long_description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    technologies: ['html', 'css', 'javascript'],
+    technologies: ['Html', 'CSS', 'JavaScript'],
     link_to_Source: 'https://github.com/Terbeche/Groupe-Capstone-API',
     link_to_live_version: 'https://crystallinebutterfly.github.io/Group-Capstone-1/',
   },
   {
     title: 'E Learning Platform',
-    info: ['CANOPY', 'Back End Dev', '2015'],
     featured_image: './images/project-snapshots/e_learning.png',
     description:
-      'This is a E-learning-platform website for the FIRST CAPSTONE PROJECT of the microverse program representing an E-Learning platform.',
-    long_description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    technologies: ['html', 'css', 'javascript'],
+      'This is a E-learning-platform website is a simple static website representing an E-Learning platform.',
+    technologies: ['Html', 'CSS', 'JavaScript'],
     link_to_Source: 'https://github.com/Terbeche/E-learning-platform',
     link_to_live_version: 'https://terbeche.github.io/E-learning-platform/',
   },
   {
     title: 'Countries Information',
-    info: ['CANOPY', 'Back End Dev', '2015'],
-    featured_image: './images/project-snapshots/countries_information.png',
+    featured_image: ('./images/project-snapshots/countries_information.png'),
     description:
-      "Awesome Books is a web application that let's add and remove books using local storage.",
-    long_description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    technologies: ['html', 'css', 'javascript'],
-    link_to_Source: 'https://countries-information.herokuapp.com/',
-    link_to_live_version: 'https://github.com/Terbeche/countries-information',
+      'In this project, I have worked with the real live data from the RESTCountries API. This web application provides some information about more than 250 countries worldwide like the area, population, capital, continent, and the official flag.',
+    technologies: ['React', 'Redux', 'CSS'],
+    link_to_Source: 'https://github.com/Terbeche/countries-information',
+    link_to_live_version: 'https://countries-information.herokuapp.com/',
   },
-  {
-    title: 'To Do APP',
-    info: ['CANOPY', 'Back End Dev', '2015'],
-    featured_image: './images/project-snapshots/project1.png',
-    description:
-      'React-To-Do-App is a Single Page App (SPA) that allows users to add and delete To-Do tasks. It was created following this tutorial with some additional changes',
-    long_description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    technologies: ['html', 'css', 'react'],
-    link_to_Source: 'https://github.com/Terbeche/react-todo-app',
-    link_to_live_version: 'https://terbeche.github.io/react-todo-app/',
-  },
+
 ];
 
-for (let i = 0; i < projectsDetails.length - 1; i += 1) {
+for (let i = 0; i < projectsDetails.length; i += 1) {
   const projectItem = document.createElement('div');
   const k = i + 2;
   projectItem.id = `item${k}`;
   projectItem.classList.add('item');
   projectItem.classList.add('card-item');
+  // projectItem.style.backgroundImage = `url(${projectsDetails[i].featured_image})`;
 
-  const projectTitle = document.createElement('h3');
-  projectTitle.classList.add('card-title');
-  projectTitle.textContent = projectsDetails[i].title;
-  projectItem.appendChild(projectTitle);
+  // const projectTitle = document.createElement('h3');
+  // projectTitle.classList.add('card-title');
+  // projectTitle.textContent = projectsDetails[i].title;
+  // projectItem.appendChild(projectTitle);
 
-  const projectDescription = document.createElement('p');
-  projectDescription.classList.add('card-description');
-  projectDescription.textContent = projectsDetails[i].description;
-  projectItem.appendChild(projectDescription);
+  // const projectDescription = document.createElement('p');
+  // projectDescription.classList.add('card-description');
+  // projectDescription.textContent = projectsDetails[i].description;
+  // projectItem.appendChild(projectDescription);
+
+  const projectImage = document.createElement('img');
+  projectImage.classList.add('card-image');
+  projectImage.src = projectsDetails[i].featured_image;
+  projectImage.alt = 'project screen shot';
+  projectItem.appendChild(projectImage);
 
   const projectSkills = document.createElement('ul');
   projectSkills.classList.add('skills');
@@ -151,12 +129,14 @@ for (let i = 0; i < projectsDetails.length - 1; i += 1) {
 function hideProjectDetailsPopup() {
   document.querySelector('#popup-overlay').style.display = 'none';
   document.querySelector('#details-popup').style.display = 'none';
+  document.body.style.overflow = 'auto';
 }
 
 function showProjectDetailsPopup(i) {
   if (!!document.getElementById('popup-container') === true) {
     document.getElementById('popup-container').remove();
   }
+  document.body.style.overflow = 'hidden';
 
   const projectDetailsPopupContainer = document.createElement('div');
   projectDetailsPopupContainer.id = 'popup-container';
@@ -170,7 +150,7 @@ function showProjectDetailsPopup(i) {
   projectDetailsPopup.id = 'details-popup';
   projectDetailsPopup.style.display = 'flex';
   if (window.screen.width >= 768) {
-    projectDetailsPopup.style.top = `${window.pageYOffset + 77}px`;
+    projectDetailsPopup.style.top = `${window.pageYOffset - 90}px`;
   } else {
     projectDetailsPopup.style.top = `${window.pageYOffset + 16}px`;
   }
@@ -205,7 +185,8 @@ function showProjectDetailsPopup(i) {
   popupContainer2.id = 'popup-container-2';
 
   const popupImage = document.createElement('img');
-  popupImage.src = './images/project-snapshots.svg';
+  popupImage.classList.add('popup-image');
+  popupImage.src = projectsDetails[i].featured_image;
   popupImage.alt = 'Project snapshot';
   popupContainer2.appendChild(popupImage);
 
@@ -213,7 +194,7 @@ function showProjectDetailsPopup(i) {
   popupDescription.id = 'popup-description';
   const popupTextDescription = document.createElement('p');
   popupTextDescription.id = 'popup-text-description';
-  popupTextDescription.textContent = projectsDetails[i].long_description;
+  popupTextDescription.textContent = projectsDetails[i].description;
   popupDescription.appendChild(popupTextDescription);
 
   const popupButtons = document.createElement('div');

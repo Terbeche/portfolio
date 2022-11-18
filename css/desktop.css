@@ -41,9 +41,8 @@
     margin-top: 0;
   }
 
-  #popup-container-2 > img {
-    width: 659px;
-    height: 448px;
+  .popup-image{
+    height: 25rem;
   }
 
   .desktop-menu {
@@ -126,7 +125,7 @@
 
   #item2 {
     /* background-image: url("../images/desktop/Placeholder4.svg"); */
-    background-color: #091e42;
+    /* background-color: #091e42; */
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -134,7 +133,7 @@
   #item3,
   #item6 {
     /* background-image: url("../images/desktop/Placeholder2.svg"); */
-    background-color: #091e42;
+    /* background-color: #091e42; */
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -142,7 +141,7 @@
   #item4,
   #item7 {
     /* background-image: url("../images/desktop/Placeholder3.svg"); */
-    background-color: #091e42;
+    /* background-color: #091e42; */
     background-repeat: no-repeat;
     background-size: cover;
   }
