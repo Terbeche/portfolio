@@ -406,6 +406,13 @@ ul li {
   margin-bottom: 5rem;
 }
 
+.item:hover {
+  border: 2px solid aqua;
+  transform: scale(1.06);
+  transition: 300ms ease-in-out;
+  z-index: 1;
+}
+
 #item2,
 #item3,
 #item4,
