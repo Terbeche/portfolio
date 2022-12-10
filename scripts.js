@@ -28,7 +28,7 @@ const projectsDetails = [
       'Math magicians is a website for all fans of mathematics',
     technologies: ['Html', 'CSS', 'JavaScript'],
     link_to_Source: 'https://github.com/Terbeche/Math-Magicians',
-    link_to_live_version: 'https://math-magicians-react-project.herokuapp.com/',
+    link_to_live_version: 'https://math-magicians-react-project.netlify.app/',
   },
   {
     title: 'Budget App',
@@ -54,8 +54,8 @@ const projectsDetails = [
     description:
       'This is a website that displays a list of movies from an external API',
     technologies: ['Html', 'CSS', 'JavaScript'],
-    link_to_Source: 'https://github.com/Terbeche/Groupe-Capstone-API',
-    link_to_live_version: 'https://crystallinebutterfly.github.io/Group-Capstone-1/',
+    link_to_Source: 'https://github.com/Terbeche/TV-SHOW',
+    link_to_live_version: 'https://terbeche.github.io/TV-SHOW/',
   },
   {
     title: 'E Learning Platform',
@@ -73,7 +73,7 @@ const projectsDetails = [
       'In this project, I have worked with the real live data from the RESTCountries API. This web application provides some information about more than 250 countries worldwide like the area, population, capital, continent, and the official flag.',
     technologies: ['React', 'Redux', 'CSS'],
     link_to_Source: 'https://github.com/Terbeche/countries-information',
-    link_to_live_version: 'https://countries-information.herokuapp.com/',
+    link_to_live_version: 'https://countries-information-api.netlify.app/',
   },
 
 ];
